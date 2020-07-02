@@ -19,7 +19,7 @@ import javax.annotation.Resource;
 @RestController
 @RequestMapping("/pay")
 @Api(value = "支付rest",tags = "支付rest")
-public class PaymentController {
+public class PaymentController{
 
     @Resource
     private PaymentService paymentService;

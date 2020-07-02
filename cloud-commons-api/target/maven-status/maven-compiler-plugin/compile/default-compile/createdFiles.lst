@@ -1,0 +1,5 @@
+cn\cloud\commons\model\ResponseEntity.class
+cn\cloud\commons\util\ResCodeDesc.class
+cn\cloud\commons\config\SwaggerConfig.class
+cn\cloud\commons\model\PageResult.class
+cn\cloud\commons\model\ResponseEntityPage.class
