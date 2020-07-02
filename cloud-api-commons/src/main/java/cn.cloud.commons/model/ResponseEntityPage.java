@@ -1,4 +1,4 @@
-package model;
+package cn.cloud.commons.model;
 
 import io.swagger.annotations.ApiModel;
 import lombok.AllArgsConstructor;
@@ -15,13 +15,12 @@ import java.io.Serializable;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@ApiModel(value = "ReponseInfo",description = "返回Object信息")
-public class ReponseInfo implements Serializable {
+@ApiModel(value = "ResponseEntityPage",description = "返回分页信息")
+public class ResponseEntityPage<T> implements Serializable {
 
     private int code;
 
     private String msg;
 
-    private Object data;
-
+    private PageResult<T> data;
 }

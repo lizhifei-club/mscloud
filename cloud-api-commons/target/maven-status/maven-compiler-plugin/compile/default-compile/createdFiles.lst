@@ -1,0 +1,6 @@
+cn\cloud\commons\util\RespCodeDesc.class
+cn\cloud\commons\model\ReponseInfo.class
+cn\cloud\commons\model\ResponseEntity.class
+cn\cloud\commons\model\PageResult.class
+cn\cloud\commons\model\ResponseEntityPage.class
+cn\cloud\commons\model\RequestInfo.class

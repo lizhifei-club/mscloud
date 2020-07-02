@@ -1,4 +1,4 @@
-package util;
+package cn.cloud.commons.util;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

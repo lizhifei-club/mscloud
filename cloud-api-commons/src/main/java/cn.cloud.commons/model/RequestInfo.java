@@ -1,4 +1,4 @@
-package model;
+package cn.cloud.commons.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

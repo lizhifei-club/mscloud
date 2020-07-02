@@ -1,4 +1,4 @@
-package model;
+package cn.cloud.commons.model;
 
 import io.swagger.annotations.ApiModel;
 import lombok.AllArgsConstructor;
