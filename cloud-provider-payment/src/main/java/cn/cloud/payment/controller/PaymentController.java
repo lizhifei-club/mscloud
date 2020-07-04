@@ -5,6 +5,7 @@ import cn.cloud.payment.entity.Payment;
 import cn.cloud.payment.service.PaymentService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,7 +18,7 @@ import javax.annotation.Resource;
  * @Description:
  */
 @RestController
-@RequestMapping("/pay")
+@RequestMapping(value = "/pay",produces = "application/json")
 @Api(value = "支付rest",tags = "支付rest")
 public class PaymentController{
 

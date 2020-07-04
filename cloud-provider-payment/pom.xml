@@ -12,6 +12,11 @@
     <artifactId>cloud-provider-payment</artifactId>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
         <dependency>
             <groupId>cn.cloud.springcloud</groupId>
             <artifactId>cloud-commons-api</artifactId>

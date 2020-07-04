@@ -6,20 +6,19 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
-import java.util.List;
 
 /**
  * @author: lzf
- * @date: 2020/7/3
+ * @date: 2020/7/4
  * @Description:
  */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@ApiModel(value = "PageResult",description = "返回分页data")
-public class PageResult<T> implements Serializable {
+@ApiModel(value = "ResponseInfo",description = "返回Object信息")
+public class ResponseInfo implements Serializable {
 
-    private Integer pageNum;
-    private Integer pageSize;
-    private List<T> data;
+    private int code;
+    private String msg;
+    private Object data;
 }

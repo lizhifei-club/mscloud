@@ -1,5 +1,6 @@
 package cn.cloud.commons.model;
 
+import io.swagger.annotations.ApiModel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,6 +16,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@ApiModel(value = "ResponseEntity",description = "返回实体信息")
 public class ResponseEntity<T> implements Serializable {
 
     private int code;
